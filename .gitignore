@@ -1,0 +1,6 @@
+# diagnostic scratch files produced during development
+_*.txt
+*.log
+
+# never commit local credentials
+*.env

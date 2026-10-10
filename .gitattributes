@@ -1,0 +1,12 @@
+# Normalize line endings
+* text=auto eol=lf
+
+# Windows scripts MUST keep CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# PowerShell scripts
+*.ps1 text eol=crlf
+
+# Docs / skill definitions
+*.md text eol=lf
